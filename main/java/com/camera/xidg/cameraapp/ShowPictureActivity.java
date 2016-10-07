@@ -28,8 +28,8 @@ public class ShowPictureActivity extends AppCompatActivity {
         lvMain.setChoiceMode(ListView.CHOICE_MODE_MULTIPLE);
         // Создаем адаптер, используя массив из файла ресурсов
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(
-                this, R.array.names,
-                android.R.layout.simple_list_item_multiple_choice);
+               this, R.array.names,
+              android.R.layout.simple_list_item_multiple_choice);
         lvMain.setAdapter(adapter);
 
         Button btnChecked = (Button) findViewById(R.id.btnChecked);
